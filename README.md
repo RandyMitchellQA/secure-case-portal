@@ -32,8 +32,7 @@ Visual HTML reporting enabled
 
 Configured .gitignore and version control
 
-👤 Author
-
-Randy Mitchell
-QA Engineer | Playwright | Manual & Automation Testing
-LinkedIn Profile
+## 👤 Author
+**Randy Mitchell**  
+QA Engineer | Playwright | Manual & Automation Testing  
+[LinkedIn Profile](https://www.linkedin.com/in/randy-mitchell-74467217b)

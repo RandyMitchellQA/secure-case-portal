@@ -22,17 +22,13 @@ npm install
 npx playwright install
 npx playwright test --headed
 
-🧭 Highlights
+🧭 Highlights  
+Realistic end-to-end flows using public demo site  
+Clear page object structure (pages/ folder)  
+Visual HTML reporting enabled  
+Configured .gitignore and version control  
 
-Realistic end-to-end flows using public demo site
-
-Clear page object structure (pages/ folder)
-
-Visual HTML reporting enabled
-
-Configured .gitignore and version control
-
-## 👤 Author
+## 👤 Author  
 **Randy Mitchell**  
 QA Engineer | Playwright | Manual & Automation Testing  
 [LinkedIn Profile](https://www.linkedin.com/in/randy-mitchell-74467217b)

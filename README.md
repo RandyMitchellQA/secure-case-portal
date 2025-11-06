@@ -16,14 +16,13 @@ This project demonstrates end-to-end testing using **Playwright + TypeScript**, 
 - **Logout Scenario**
   - User logs out and returns to login screen  
 
-  👉 LinkedIn Profile: https://www.linkedin.com/in/randy-mitchell-74467217b
 
 ## ▶️ Run Tests Locally
 ```bash
 npm install
 npx playwright install
 npx playwright test --headed
-
+```       ← this line exits the bash block
 
 
 🧭 Highlights

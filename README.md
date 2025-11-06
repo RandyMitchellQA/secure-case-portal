@@ -24,6 +24,8 @@ npm install
 npx playwright install
 npx playwright test --headed
 
+
+
 🧭 Highlights
 
 Realistic end-to-end flows using public demo site

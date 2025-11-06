@@ -24,15 +24,11 @@ npx playwright install
 npx playwright test --headed
 
 
-
 🧭 Highlights
 
 Realistic end-to-end flows using public demo site
-
 Clear page object structure (pages/ folder)
-
 Visual HTML reporting enabled
-
 Configured .gitignore and version control
 
 

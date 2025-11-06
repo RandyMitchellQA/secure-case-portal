@@ -22,7 +22,7 @@ This project demonstrates end-to-end testing using **Playwright + TypeScript**, 
 npm install
 npx playwright install
 npx playwright test --headed
-```       ← this line exits the bash block
+
 
 
 🧭 Highlights

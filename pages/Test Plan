@@ -1,0 +1,27 @@
+# Secure Case Portal – Playwright Automation Test Plan
+
+## Objective
+This project demonstrates a modular automation framework using Playwright with TypeScript.
+It validates the authentication flow of the sample website [SauceDemo](https://www.saucedemo.com/).
+
+## Scope
+The tests cover:
+1. **Homepage Validation** – confirms page title and visibility of the login form.
+2. **Valid Login** – verifies that a standard user can log in successfully.
+3. **Invalid Login** – confirms an error message appears when incorrect credentials are entered.
+4. **Logout Flow** – validates that users can log out and return to the login screen.
+
+## Tools & Framework
+- **Playwright** for end-to-end testing
+- **TypeScript** for type safety
+- **Page Object Model (POM)** for maintainability
+- **VS Code** as the development environment
+
+## Test Data
+| Scenario | Username | Password | Expected Result |
+|-----------|-----------|-----------|------------------|
+| Valid Login | `standard_user` | `secret_sauce` | Redirected to inventory page |
+| Invalid Login | `locked_out_user` | `bad_password` | Error: Epic sadface... |
+| Logout | `standard_user` | `secret_sauce` | Returns to login page |
+
+## Folder Structure

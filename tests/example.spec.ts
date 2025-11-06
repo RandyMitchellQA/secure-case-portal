@@ -1,0 +1,7 @@
+import { test, expect } from '@playwright/test';
+
+test('homepage loads', async ({ page }) => {
+  await page.goto('https://www.saucedemo.com/');
+  await expect(page).toHaveTitle(/Swag Labs/);
+  await page.pause();            // stays open until you close the Inspector
+});

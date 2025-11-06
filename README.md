@@ -38,11 +38,3 @@ Randy Mitchell
 QA Engineer | Playwright | Manual & Automation Testing
 LinkedIn Profile
 
-
----
-
-### Then run these:
-```powershell
-git add README.md
-git commit -m "Fix LinkedIn link and markdown code block"
-git push

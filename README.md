@@ -18,8 +18,8 @@ This project demonstrates end-to-end testing using **Playwright + TypeScript**, 
 
 ## ▶️ Run Tests Locally
 ```bash
-npm install  
-npx playwright install  
+npm install
+npx playwright install
 npx playwright test --headed
 
 🧭 Highlights
@@ -36,4 +36,13 @@ Configured .gitignore and version control
 
 Randy Mitchell
 QA Engineer | Playwright | Manual & Automation Testing
-[LinkedIn Profile](https://www.linkedin.com/in/randy-mitchell-74467217b)
+LinkedIn Profile
+
+
+---
+
+### Then run these:
+```powershell
+git add README.md
+git commit -m "Fix LinkedIn link and markdown code block"
+git push

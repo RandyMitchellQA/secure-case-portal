@@ -36,7 +36,6 @@ Visual HTML reporting enabled
 Configured .gitignore and version control
 
 
-
 👤 Author
 
 Randy Mitchell

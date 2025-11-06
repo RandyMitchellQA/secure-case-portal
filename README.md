@@ -36,4 +36,4 @@ Configured .gitignore and version control
 
 Randy Mitchell
 QA Engineer | Playwright | Manual & Automation Testing
-👉 LinkedIn Profile: [https://www.linkedin.com/in/randy-mitchell-74467217b](https://www.linkedin.com/in/randy-mitchell-74467217b)
+👉 LinkedIn Profile: https://www.linkedin.com/in/randy-mitchell-74467217b

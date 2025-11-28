@@ -1,39 +1,42 @@
-# Secure Case Portal – Playwright Test Automation
+Secure Case Portal – Playwright Test Automation
 
-This project demonstrates end-to-end testing using **Playwright + TypeScript**, built as a mock government-style “Secure Case Portal” login and logout flow (tested on saucedemo.com).
+This project demonstrates end to end testing using Playwright + TypeScript, built as a mock government style Secure Case Portal login and logout flow (using saucedemo.com).
 
-## 🧪 Tech Stack
-- Playwright Test Runner  
-- TypeScript  
-- Page Object Model (POM)  
-- Visual Studio Code  
-- Git & GitHub Version Control  
+🧪 Tech Stack
 
-## ✅ Test Coverage
-- **Login Scenarios**
-  - Valid login → navigates to inventory page  
-  - Invalid login → shows error message  
-- **Logout Scenario**
-  - User logs out and returns to login screen  
+Playwright Test Runner
 
+TypeScript
 
-## ▶️ Run Tests Locally
-```bash
+Page Object Model (POM)
+
+Visual Studio Code
+
+Git and GitHub version control
+
+✅ Test Coverage
+Login
+
+Valid login → navigates to inventory
+
+Invalid login → shows error message
+
+Logout
+
+User logs out and returns to login page
+
+▶️ Run Tests Locally
 npm install
 npx playwright install
 npx playwright test --headed
 
+📊 Playwright HTML Report
 
-🧭 Highlights
-
-Realistic end-to-end flows using public demo site
-Clear page object structure (pages/ folder)
-Visual HTML reporting enabled
-Configured .gitignore and version control
+![Playwright Report](playwright-report.png)
 
 
 👤 Author
 
 Randy Mitchell
-QA Engineer | Playwright | Manual & Automation Testing
-👉 LinkedIn Profile: https://www.linkedin.com/in/randy-mitchell-74467217b
+QA Engineer
+LinkedIn: https://www.linkedin.com/in/randy-mitchell-74467217b

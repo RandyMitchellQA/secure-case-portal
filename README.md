@@ -30,9 +30,8 @@ npm install
 npx playwright install
 npx playwright test --headed
 
-📊 Playwright HTML Report
-
-![Playwright Report](playwright-report.png)
+## 📊 Playwright HTML Report
+![Playwright Report](./playwright-report.png)
 
 
 👤 Author

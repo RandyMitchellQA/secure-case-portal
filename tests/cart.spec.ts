@@ -13,7 +13,7 @@ test('add to cart adds item and shows badge', async ({ page }) => {
 
   await inventory.assertOnInventoryPage();
   await inventory.addBackpackToCart();
-  await inventory.assertCartBadgeCount(2);
+  await inventory.assertCartBadgeCount(1);
 
   await inventory.openCart();
   await cart.assertOnCartPage();

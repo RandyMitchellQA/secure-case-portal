@@ -14,5 +14,5 @@ test('invalid login shows error', async ({ page }) => {
   await login.goto();
   await login.login('locked_out_user', 'bad_password');
   await login.assertError('Epic sadface');
-  await page.pause();
+  
 });

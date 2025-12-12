@@ -10,5 +10,5 @@ test('user can logout after login', async ({ page }) => {
   await login.login('standard_user', 'secret_sauce');
   await logout.logout();
   await logout.assertLogout();
-  await page.pause();
+  
 });

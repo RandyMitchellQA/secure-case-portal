@@ -33,6 +33,18 @@ npx playwright test --headed
 ## 📊 Playwright HTML Report
 ![Playwright Report](./playwright-report.png)
 
+## 🚨 CI Failure Example (Regression Detection)
+
+This project intentionally includes a failing test commit to demonstrate how CI catches regressions.
+
+Example:
+- A cart badge assertion was intentionally set to an incorrect value
+- GitHub Actions detected the failure automatically
+- The pipeline failed before merge
+
+This mirrors real-world QA workflows where CI prevents broken changes from reaching production.
+
+
 
 👤 Author
 
